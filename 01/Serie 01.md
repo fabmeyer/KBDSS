@@ -15,3 +15,29 @@
 - **Conceptual Knowledge** ist nötig für die Festlegung der Art der Auswertung der Grundinformationen
 - **Domain Knowledge** aus dem Gebiet der Mathematik, welches die Auswertung formal beschreibt
 - **Domain Knowledge** aus dem Gebiet der Informatik, damit die Auswertung praktisch und effizient durchgeführt werden kann
+
+## Welche Komplexitäten bestehen die den Einsatz solch einer Applikation rechtfertigen?
+
+- Trotz der Ausbildung der Berater kann dieser nicht alle Details der jeweiligen Anlagen der Kunden kennen
+- Alle Kennzahlen und Projektionen der Anlagen sind via Fin abrufbereit
+- Aktienkurse sind von einer Vielzahl von Variablen abhängig, unter anderem auch positiver und negativer Einstellungen zu den jeweiligen Firmen. Diese Daten sind jedoch nicht direkt abrufbereit. Eine AI könnte Newssites und Social Media analysieren und via Fin dem Berater und dem Kunden präsentieren
+
+## Welche Daten & Datenquellen würden sie für die Umsetzung nutzen?
+
+Strukturierte Datenquellen
+
+- Kundendatenbank der UBS
+- Aktiendatenbank der UBS
+- Börsenkurse
+- Bewertungen von Rating Agenturen
+- Offizielle Zahlen von Grossfirmen
+- Internet Traffic analyse
+
+Unstrukturierte Datenquellen
+
+- Analyse von Newssites
+- Analyse von Social Media
+
+
+## Gibt es Restriktionen die bei der Wahl der Daten & Datenquellen berücksichtigt werden müssen?
+ 
