@@ -12,19 +12,16 @@ jagen Katzen Mäuse. Mäuse leben primär auf Feldern und Wiesen.
 
 ### 1.2 Formulieren sie den gleichen Sachverhalt mit logischen Operatoren.
 
-* **Menschen(Pet). (HAVE)**
-* **Pet(Katze). (IS\_A)**
-* **Katzen(Mäuse). (HUNT)**
+* **∃X : (Human(X) → HAS(X, Pet)**
+* **Pet(Katze). (IS\_A)** korrekt, da IS_A der einzige Operator ist, der unär ist, also nur 1 Argument benötigt
+* **∃X : (Cat(X) → IS_IN(X, Nature)**
+* **∃X : (Cat(X) ⋀ IS_IN(X, Nature) → HUNTS(X, Mice)**
 * **Live\_in(X, Felder) :- Mäuse(X). (LIVE\_IN)**
-* ∃X : (Mäuse(X) → LIVE-IN(X,Felder))
+* **∀X : (Mäuse(X) → LIVE_IN(X,Felder))**, benötigt ∀, da im Text primär steht...
 * **Live\_in(X, Wiesen) :- Mäuse(X). (LIVE\_IN)**
-* ∃X : (Mäuse(X) → LIVE-IN(X,Wiesen))
-
-
+* **∀X : (Mäuse(X) → LIVE_IN(X,Wiesen))**
 
 ## 2. Description Logic: Formulieren Sie folgende Aussagen mittels TBox und Abox. Dazu sollen folgende Konzepte verwendet werden: Person, Glücklich, Hund, Katze.
-
-
 
 ### 2.1 Eine Person ist glücklich
 
