@@ -54,6 +54,3 @@ Hunde haben einen Halter.
 Wobei der Kontext Hund = Fido und Halter = Alex  
 Dies heisst dass Alex der Halter von Fido ist  
 K =(T, A) then K ⊢ HalterVon(Alex, Fido)
-
-
-

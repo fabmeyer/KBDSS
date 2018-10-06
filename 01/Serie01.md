@@ -38,7 +38,6 @@ Unstrukturierte Datenquellen
 - Analyse von Newssites
 - Analyse von Social Media
 
-
 ## Gibt es Restriktionen die bei der Wahl der Daten & Datenquellen berücksichtigt werden müssen?
 
 Auf jeden Fall. 
@@ -48,4 +47,3 @@ Besonders bei Datenquellen wie 'Kundendatenbank der UBS' spielt der Datenschutz 
 Beim Einsatz von 'Social Media' und 'Newssites' als Datenquellen muss berücksichtigt werden, dass die Datenqualität nicht gewährleistet ist. Newsportale und ganz besonders Social Media veröffentlichen oftmals Daten, die nicht zwingend der Wahrheit entsprechen müssen. Daher müssten diese Daten sorgfältig gewählt und allenfalls bereinigt werden.
 
 Generell muss zudem darauf geachtet werden, dass stets aktuelle Daten für die Applikation verwendet werden. Veraltete Börsenkurse oder Bewertungen könnten zu einer Fehlinformation des Kunden führen.
- 
