@@ -11,9 +11,11 @@ Rotkreuz.
 
 <img src="RDF.png"/>
 
-## 2.
+## 2.Modellieren sie den gleichen Sachverhalt nun mit RDFS, dabei sollen die hierarchischen Abhängigkeiten berücksichtigt werden.
 
+ 
 
+<img src="kdbs_03.jpg"/>
 
 
 
